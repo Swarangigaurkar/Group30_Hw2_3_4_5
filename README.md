@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/github/contributors/swarangigaurkar/Group30_Hw2_3_4_5?style=plastic"/> </a>
 [![Python application](https://github.com/Swarangigaurkar/Group30_Hw2_3_4_5/actions/workflows/python-app.yml/badge.svg?style=plastic?branch=main)](https://github.com/Swarangigaurkar/Group30_Hw2_3_4_5/actions/workflows/python-app.yml)
 ![Code Coverage](https://github.com/Swarangigaurkar/Group30_Hw2_3_4_5/actions/workflows/Coverage.yml/badge.svg)
+![Codecov](https://codecov.io/github/Swarangigaurkar/Group30_Hw2_3_4_5/branch/main/graph/badge.svg)
 [![DOI](https://zenodo.org/badge/532051492.svg?style=plastic)](https://zenodo.org/badge/latestdoi/532051492)
 ![Python](https://img.shields.io/badge/python-v3.8+-yellow.svg)
 ![Repo Size](https://img.shields.io/github/repo-size/Swarangigaurkar/Group30_Hw2_3_4_5?color=brightgreen)
