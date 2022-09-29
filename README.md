@@ -38,7 +38,7 @@ Run the following command to install all requirements. </br>
 ```pip install -r requirements. txt```
 
 To view the results of tasks, execute the following file. </br>
-```python code/csv_parser.py```
+```python src/csv_parser.py```
 
 To check whether the test caes are running fine, execute the following file. </br>
 ```pytest tests/test.py -v```
