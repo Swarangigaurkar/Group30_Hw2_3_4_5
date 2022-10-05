@@ -1,4 +1,4 @@
-name: Generate Documentation Setip
+name: Generate Documentation Setup
 
 on: [push]
 
@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: pip install sphinx
-    - run: sphnix-quickstart -q -p CSC510_Group_30_Homework -a Swarangi Gaurkar -v 1
+    - run: sphinx-quickstart -q -p CSC510_Group_30_Homework -a Swarangi Gaurkar -v 1
