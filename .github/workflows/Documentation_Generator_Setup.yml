@@ -8,3 +8,5 @@ jobs:
     steps:
     - run: pip install sphinx
     - run: sphinx-quickstart -q -p CSC510_Group_30_Homework -a Swarangi Gaurkar -v 1
+    - name: Push changes
+      uses: ad-m/github-push-action@master
