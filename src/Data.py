@@ -4,6 +4,7 @@ from Row import Row
 from csv_parser import csv
 from Cols import Cols
 from Row import Row
+#!/bin/bash
 #@file Class for storing the data
 class Data:
     
