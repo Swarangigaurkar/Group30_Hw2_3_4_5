@@ -1,3 +1,4 @@
+#github-action genshdoc
 from Cols import Cols
 from Row import Row
 from csv_parser import csv
