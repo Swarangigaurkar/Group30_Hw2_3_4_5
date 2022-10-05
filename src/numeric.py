@@ -2,7 +2,7 @@
 from csv_parser import the
 import math
 import random
-
+#!/bin/bash
 #@file Numeric Class, summarizes a stream of numbers
 class Num:
   
