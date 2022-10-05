@@ -4,9 +4,10 @@ from Row import Row
 from csv_parser import csv
 from Cols import Cols
 from Row import Row
-
+#Class for storing the data
 class Data:
     
+    #Initializes the number of rows and columns of the data
     def __init__(self, src):
         self.src = src
         self.cols = None
@@ -19,7 +20,7 @@ class Data:
         else:
             for _, row in enumerate(self.src or {}):
                 self.add(row)
-       
+    #Add a row to Data
     def add(self, xs):
         if not self.cols:
             self.cols = Cols(xs)
@@ -32,7 +33,7 @@ class Data:
             for todo in self.cols.x+self.cols.y:
                 for col in todo:
                     col.add(row.cells[col.at])
-     
+    
     def stats(self, places, showCols, fun):
         t={}
         if showCols==None:
