@@ -1,4 +1,4 @@
-name: Code Coverage
+name: Documentation Generator
 
 on:
     push:
@@ -10,6 +10,5 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - run: pip install -U sphinx
-            - run: chmod u=a /Documentation
-            - run: sphinx-build -b html . /Documentation
+            - run: chmod u+x sphinx-build -b html . /Documentation
             - run: git add -A
