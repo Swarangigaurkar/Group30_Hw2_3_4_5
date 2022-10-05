@@ -5,10 +5,10 @@ from csv_parser import csv
 from Cols import Cols
 from Row import Row
 #!/bin/bash
-#@file Class for storing the data
+# @file Class for storing the data
 class Data:
     
-    #@Initializes the number of rows and columns of the data
+    # @Initializes the number of rows and columns of the data
     def __init__(self, src):
         self.src = src
         self.cols = None
@@ -21,7 +21,7 @@ class Data:
         else:
             for _, row in enumerate(self.src or {}):
                 self.add(row)
-    #@Add a row to Data
+    # @Add a row to Data
     def add(self, xs):
         if not self.cols:
             self.cols = Cols(xs)
