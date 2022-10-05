@@ -9,6 +9,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - run: pip install sphinx
-    - run: sphinx-quickstart -q -p CSC510_Group_30_Homework -a Swarangi Gaurkar -v 1
+    - run: sphinx-quickstart -q -p CSC510_Group_30_Homework -a Swarangi -v 1
     - name: Push changes
-      run: git add -A
+      run: git add --no-all
