@@ -3,10 +3,10 @@ from csv_parser import the
 import math
 import random
 
-#Numeric Class, summarizes a stream of numbers
+#@file Numeric Class, summarizes a stream of numbers
 class Num:
   
-  #Initialization
+  #@Initialization
   def __init__(self,c=0,s=""):
     self.n=0
     self.at=c
@@ -24,14 +24,14 @@ class Num:
     else:
       w=0
   
-  #Sort the kept list of numbers
+  #@Sort the kept list of numbers
   def nums(self):
     if self.isSorted==False:
       self._has.sort()
       self.isSorted=True
     return self._has
   
-  #Keep at most a fixed number of numbers, if we run out of room delete numbers at random
+  #@Keep at most a fixed number of numbers, if we run out of room delete numbers at random
   def add (self, v, nums): 
       if v!="?":
           self.n += 1
@@ -51,14 +51,14 @@ class Num:
                   self._has.insert(pos, float(v)) 
           return
         
-  #Calculate the Standard Deviation of the list of numbers
+  #@Calculate the Standard Deviation of the list of numbers
   def div(self):
     a=self.nums()
     index_90th=int(len(a)*0.9)
     index_10th=int(len(a)*0.1)
     return (a[index_90th]-a[index_10th])/2.58
   
-  #Calculate the Median of the list of numbers
+  #@Calculate the Median of the list of numbers
   def mid(self):
     a=self.nums()
     index_50th=int(len(a)*0.5)
