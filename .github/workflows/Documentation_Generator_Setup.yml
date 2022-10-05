@@ -11,4 +11,4 @@ jobs:
     - run: pip install sphinx
     - run: sphinx-quickstart -q -p CSC510_Group_30_Homework -a Swarangi -v 1
     - name: Push changes
-      run: git add --no-all
+      run: git add -i
