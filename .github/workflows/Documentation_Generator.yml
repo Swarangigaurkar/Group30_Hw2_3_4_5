@@ -11,7 +11,7 @@ jobs:
             - uses: actions/checkout@v3
             - run: pip install -U sphinx
             - run: chmod u+x Documentation
-            - run: sphinx-build -b html . Documentation
+            - run: sphinx-build -b text . Documentation
             - run: git add -A
             - run: git config --global user.email "aadiasba@ncsu.edu"
             - run: git config --global user.name "Aaron Dias Barreto"
