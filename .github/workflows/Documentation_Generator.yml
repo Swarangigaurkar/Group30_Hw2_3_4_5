@@ -11,6 +11,6 @@ jobs:
             - uses: actions/checkout@v3
             - run: pip install -U sphinx
             - run: ls
-            - run: chmod u+x /Documentation
-            - run: sphinx-build -b html . /Documentation
+            - run: chmod u+x Documentation
+            - run: sphinx-build -b html . Documentation
             - run: git add -A
