@@ -10,7 +10,7 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - run: pip install -U sphinx
-            - run: ls
             - run: chmod u+x Documentation
             - run: sphinx-build -b html . Documentation
             - run: git add -A
+            - run: git commit -m "Doco Auto Generated" -a | exit 0
