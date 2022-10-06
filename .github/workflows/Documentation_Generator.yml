@@ -10,5 +10,6 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - run: pip install -U sphinx
+            - run: chmod u+x /Documentation
             - run: sphinx-build -b html . /Documentation
             - run: git add -A
