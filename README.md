@@ -50,11 +50,11 @@ To check whether the test caes are running fine, execute the following file. </b
 
 ## Authors 
 
-1. [Kritika Javali](https://github.com/ksjavali)
-2. [Swarangi Gaurkar](https://github.com/Swarangigaurkar)
-3. [Aaron Dias Barreto](https://github.com/aaron278)
-4. [Leo Hsiang](https://github.com/leoohsiang)
-5. [Damilola Babalola](https://github.com/JohnDamilola)
+1. [Leo Hsiang](https://github.com/leoohsiang)
+2. [Ashrita Ramaswamy]()
+3. [Sanjana Cheerla]()
+4. [Natalie Kraft]()
+
 
 
 ##  Support
@@ -63,8 +63,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## Help
 
-Email any queries to the contributors -
-[Swarangi Gaurkar](sgaurka@ncsu.edu)
+Email any queries to the contributors
 
 
 ## License
